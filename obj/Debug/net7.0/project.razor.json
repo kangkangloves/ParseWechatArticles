@@ -1,0 +1,57 @@
+{
+  "SerializedFilePath": "/workspace/ParseWechatArticles/obj/Debug/net7.0/project.razor.json",
+  "FilePath": "/workspace/ParseWechatArticles/ParseWechatArticles.csproj",
+  "Configuration": {
+    "ConfigurationName": "Default",
+    "LanguageVersion": "7.0",
+    "Extensions": []
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1100
+  },
+  "RootNamespace": "ParseWechatArticles",
+  "Documents": [
+    {
+      "FilePath": "/workspace/ParseWechatArticles/Pages/FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/workspace/ParseWechatArticles/_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "/workspace/ParseWechatArticles/Shared/NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/workspace/ParseWechatArticles/Pages/Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/workspace/ParseWechatArticles/Shared/MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/workspace/ParseWechatArticles/App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/workspace/ParseWechatArticles/Pages/Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/workspace/ParseWechatArticles/Shared/SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    }
+  ],
+  "SerializationFormat": "0.3"
+}

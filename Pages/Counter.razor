@@ -1,0 +1,40 @@
+﻿@page "/counter"
+@using AngleSharp
+@using AngleSharp.Dom
+@inject HttpClient Http
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+@if (imgs == null)
+{
+    <p><em>Loading...</em></p>
+}
+else{
+    @foreach (var img in imgs)
+            {
+                <img src="@img.Source">
+            }}
+
+<button class="btn btn-primary"  @onclick="IncrementCount">Click me</button>
+
+@code {
+    
+    private int currentCount = 0;
+    private List<AngleSharp.Html.Dom.IHtmlImageElement>? imgs;
+    private async void IncrementCount()
+    {
+        currentCount++;
+        //currentCount = Environment.CurrentDirectory;
+        var htmlRaw = (await Http.GetAsync("sample-data/test.html")).Content.ToString();
+        //content = (await httpClient.GetAsync("https://mp.weixin.qq.com/s/rPR7AnnbtIRMQ3opXy2hzA")).Content.ToString();
+
+        IBrowsingContext context = BrowsingContext.New(Configuration.Default);
+        IDocument document = await context.OpenAsync(req => req.Content(htmlRaw));
+
+        imgs = document.Images.Where(e => e.ClassList.Contains("rich_pages")).ToList();
+
+    }
+}
