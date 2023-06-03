@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspace/ParseWechatArticles/ParseWechatArticles.csproj": {}
+    "/workspaces/ParseWechatArticles/ParseWechatArticles.csproj": {}
   },
   "projects": {
-    "/workspace/ParseWechatArticles/ParseWechatArticles.csproj": {
+    "/workspaces/ParseWechatArticles/ParseWechatArticles.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspace/ParseWechatArticles/ParseWechatArticles.csproj",
+        "projectUniqueName": "/workspaces/ParseWechatArticles/ParseWechatArticles.csproj",
         "projectName": "ParseWechatArticles",
-        "projectPath": "/workspace/ParseWechatArticles/ParseWechatArticles.csproj",
-        "packagesPath": "/home/gitpod/.nuget/packages/",
-        "outputPath": "/workspace/ParseWechatArticles/obj/",
+        "projectPath": "/workspaces/ParseWechatArticles/ParseWechatArticles.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/ParseWechatArticles/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/gitpod/.nuget/NuGet/NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -37,21 +37,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "AngleSharp": {
-              "target": "Package",
-              "version": "[1.0.1, )"
-            },
-            "Microsoft.AspNetCore.Components.WebAssembly": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -63,23 +48,15 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[7.0.0, 7.0.0]"
-            }
-          ],
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/gitpod/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "browser-wasm": {
-          "#import": []
+          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.203/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }
