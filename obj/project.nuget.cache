@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "pxkIZL4gCX7C1gLRzaRbTvoJngcm7u366goJMbJNDZXNHQBlPf0I6ldB0EmcgLagSuwXoUOipIScBrXGTtErRA==",
+  "dgSpecHash": "PZwjjFzvdjZ7oXjvbFuuIgkB3tywnimbdh99oKxtBIzUfbfS2Hzd5lo93ohLxBfdZIvqKMln3Vp5u2f3DrfLTw==",
   "success": true,
-  "projectFilePath": "/workspaces/ParseWechatArticles/ParseWechatArticles.csproj",
+  "projectFilePath": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\ParseWechatArticles.csproj",
   "expectedPackageFiles": [
-    "/home/codespace/.nuget/packages/anglesharp/1.0.1/anglesharp.1.0.1.nupkg.sha512",
-    "/home/codespace/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
-    "/home/codespace/.nuget/packages/system.text.encoding.codepages/7.0.0/system.text.encoding.codepages.7.0.0.nupkg.sha512"
+    "C:\\Users\\ws200\\.nuget\\packages\\anglesharp\\1.0.1\\anglesharp.1.0.1.nupkg.sha512",
+    "C:\\Users\\ws200\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0-preview.2.23128.3\\microsoft.win32.systemevents.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "C:\\Users\\ws200\\.nuget\\packages\\pdfpig\\0.1.8-alpha-20230529-6daa2\\pdfpig.0.1.8-alpha-20230529-6daa2.nupkg.sha512",
+    "C:\\Users\\ws200\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\ws200\\.nuget\\packages\\system.drawing.common\\8.0.0-preview.2.23128.3\\system.drawing.common.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "C:\\Users\\ws200\\.nuget\\packages\\system.text.encoding.codepages\\7.0.0\\system.text.encoding.codepages.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

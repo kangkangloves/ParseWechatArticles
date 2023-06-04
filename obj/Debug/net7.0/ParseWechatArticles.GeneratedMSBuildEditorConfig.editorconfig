@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ParseWechatArticles
 build_property.RootNamespace = ParseWechatArticles
-build_property.ProjectDir = /workspaces/ParseWechatArticles/
+build_property.ProjectDir = C:\Users\ws200\RiderProjects\VoyageEPaperSea\ParseWechatArticles\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /workspaces/ParseWechatArticles
+build_property.MSBuildProjectDirectory = C:\Users\ws200\RiderProjects\VoyageEPaperSea\ParseWechatArticles
 build_property._RazorSourceGeneratorDebug = 
 
-[/workspaces/ParseWechatArticles/App.razor]
+[C:/Users/ws200/RiderProjects/VoyageEPaperSea/ParseWechatArticles/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/ParseWechatArticles/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+[C:/Users/ws200/RiderProjects/VoyageEPaperSea/ParseWechatArticles/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/ParseWechatArticles/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+[C:/Users/ws200/RiderProjects/VoyageEPaperSea/ParseWechatArticles/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/ParseWechatArticles/Pages/WechatArticles.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2VjaGF0QXJ0aWNsZXMucmF6b3I=
+[C:/Users/ws200/RiderProjects/VoyageEPaperSea/ParseWechatArticles/Pages/WechatArticles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VjaGF0QXJ0aWNsZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/ParseWechatArticles/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
+[C:/Users/ws200/RiderProjects/VoyageEPaperSea/ParseWechatArticles/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/ParseWechatArticles/_Imports.razor]
+[C:/Users/ws200/RiderProjects/VoyageEPaperSea/ParseWechatArticles/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/ParseWechatArticles/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-r1p8fe1big
+[C:/Users/ws200/RiderProjects/VoyageEPaperSea/ParseWechatArticles/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-puuynal8z6
 
-[/workspaces/ParseWechatArticles/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-u6vp84fyv7
+[C:/Users/ws200/RiderProjects/VoyageEPaperSea/ParseWechatArticles/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-hpcxjj2ow9
 
-[/workspaces/ParseWechatArticles/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[C:/Users/ws200/RiderProjects/VoyageEPaperSea/ParseWechatArticles/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/ParseWechatArticles/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
+[C:/Users/ws200/RiderProjects/VoyageEPaperSea/ParseWechatArticles/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../build/ParseWechatArticles.props" />
+  <Import Project="..\build\ParseWechatArticles.props" />
 </Project>

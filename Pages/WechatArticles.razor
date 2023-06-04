@@ -3,40 +3,102 @@
 @using AngleSharp
 @using AngleSharp.Html.Dom
 @using AngleSharp.Dom
+@using UglyToad.PdfPig
+@using UglyToad.PdfPig.Content
+@using UglyToad.PdfPig.Core
+@using UglyToad.PdfPig.Writer
+@using System.Net.Mime
+@using System.Drawing
 @inject HttpClient Http
 
 <PageTitle>Wechat Articles Parser</PageTitle>
 
-<p>@debug</p>
+<a href="@debug">@debug</a>
+<input @bind="inputPath"/>
+<button @onclick="GetImages">Get</button>
 
-@if (imgDebug == null) {
+@if (imgSrcs == null) {
     <p>imgDebug</p>
 } 
 else {
-    @foreach (var img in imgDebug) {
-        @img
+    @foreach (var img in imgSrcs) {
+        <img src="@img">
     }
 }
 
 @code {
+
+        private const string IMG_DIR = "imgs";
+        private const string BEHIND_IMG_DIR = $"wwwroot/{IMG_DIR}";
+        private const string PDF_DIR = "pdfs";
+        private const string BEHIND_PDF_DIR = $"wwwroot/{PDF_DIR}";
+    private string? inputPath;
     private string? debug = "debug";
-    private List<string> imgDebug;
-    protected override async Task OnInitializedAsync()
+    private List<string> imgSrcs;
+
+    private async Task GetImages()
     {
-        var htmlRes = await Http.GetAsync("https://mp.weixin.qq.com/s/rPR7AnnbtIRMQ3opXy2hzA");
+    //https://mp.weixin.qq.com/s/rPR7AnnbtIRMQ3opXy2hzA
+        var htmlRes = await Http.GetAsync(inputPath);
         var htmlRaw = await htmlRes.Content.ReadAsStringAsync();
-        
+
         IConfiguration config = Configuration.Default;
         IBrowsingContext context = BrowsingContext.New(config);
         IDocument document = await context.OpenAsync(req => req.Content(htmlRaw));
 
-        var imgElements = document.GetElementsByClassName("rich_pages").ToList();
-        imgDebug = new List<string> {"123", "456"};
-        //document.Images
-        foreach (var imgElement in imgElements) 
+        var imgElements = document.GetElementsByTagName("img")
+            .Where(e => e.GetAttribute("data-type") == "jpg" 
+                        || e.GetAttribute("data-type") == "jpeg")
+            .ToList();
+        var title = document.GetElementsByTagName("h1").FirstOrDefault().Text()
+            .Replace(" ", "").Replace("\n", "");
+        imgSrcs = new List<string> { };
+        foreach (var imgElement in imgElements)
         {
-            var img = imgElement as IHtmlImageElement;
-            imgDebug.Add(img.Source);
+            var imgSrc = imgElement.GetAttribute(("data-src"));
+            var imgName = imgSrc.Split('/')[imgSrc.Split('/').Length - 2];
+            if (!Directory.Exists(BEHIND_IMG_DIR))
+            {
+                Directory.CreateDirectory(BEHIND_IMG_DIR);
+            }
+            if (!File.Exists($"{BEHIND_IMG_DIR}/{imgName}.jpg"))
+            {
+                var imgBytes = await Http.GetByteArrayAsync(imgSrc);
+                await File.WriteAllBytesAsync($"{BEHIND_IMG_DIR}/{imgName}.jpg", imgBytes);
+            }
+            imgSrcs.Add($"{IMG_DIR}/{imgName}.jpg");
         }
+        if (!File.Exists($"{BEHIND_PDF_DIR}/{title}.pdf"))
+        {
+            PdfDocumentBuilder pdfDocumentBuilder = new PdfDocumentBuilder();
+            foreach (var imgElement in imgElements)
+            {
+                var imgSrc = imgElement.GetAttribute(("data-src"));
+                var imgName = imgSrc.Split('/')[imgSrc.Split('/').Length - 2];
+                var imgObject = Image.FromFile($"{BEHIND_IMG_DIR}/{imgName}.jpg");
+                var imgJPEGBytes = await File.ReadAllBytesAsync($"{BEHIND_IMG_DIR}/{imgName}.jpg");
+                var imgStream = new MemoryStream(imgJPEGBytes);
+                PdfPageBuilder page = pdfDocumentBuilder.AddPage(imgObject.Width, imgObject.Height);
+                page.AddJpeg(imgStream);
+            }
+            if (!Directory.Exists(BEHIND_PDF_DIR))
+            {
+                Directory.CreateDirectory(BEHIND_PDF_DIR);
+            }
+            byte[] documentBytes = pdfDocumentBuilder.Build();
+            await File.WriteAllBytesAsync($"{BEHIND_PDF_DIR}/{title}.pdf", documentBytes);
+        }
+        debug = $"{PDF_DIR}/{title}.pdf";
     }
+
+    private async Task CreatePDF()
+    {
+        
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+
+    }
+    
 }

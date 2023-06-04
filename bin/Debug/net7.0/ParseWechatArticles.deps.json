@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v7.0": {
       "ParseWechatArticles/1.0.0": {
         "dependencies": {
-          "AngleSharp": "1.0.1"
+          "AngleSharp": "1.0.1",
+          "PdfPig": "0.1.8-alpha-20230529-6daa2",
+          "System.Drawing.Common": "8.0.0-preview.2.23128.3"
         },
         "runtime": {
           "ParseWechatArticles.dll": {}
@@ -26,7 +28,66 @@
           }
         }
       },
+      "Microsoft.Win32.SystemEvents/8.0.0-preview.2.23128.3": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.12803"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.12803"
+          }
+        }
+      },
+      "PdfPig/0.1.8-alpha-20230529-6daa2": {
+        "runtime": {
+          "lib/net6.0/UglyToad.PdfPig.Core.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.DocumentLayoutAnalysis.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.Fonts.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.Package.dll": {
+            "assemblyVersion": "0.1.5.0",
+            "fileVersion": "0.1.5.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.Tokenization.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.Tokens.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {},
+      "System.Drawing.Common/8.0.0-preview.2.23128.3": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0-preview.2.23128.3"
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.12803"
+          }
+        }
+      },
       "System.Text.Encoding.CodePages/7.0.0": {}
     }
   },
@@ -43,12 +104,33 @@
       "path": "anglesharp/1.0.1",
       "hashPath": "anglesharp.1.0.1.nupkg.sha512"
     },
+    "Microsoft.Win32.SystemEvents/8.0.0-preview.2.23128.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2ugSY6UuqJfYhvVUaf4ueuUiMjIyN9dU03wpbKfRDsn13XvZ91yOlw7NLhYvB1Xc8gCAZpND20Tgbe3uBVytKA==",
+      "path": "microsoft.win32.systemevents/8.0.0-preview.2.23128.3",
+      "hashPath": "microsoft.win32.systemevents.8.0.0-preview.2.23128.3.nupkg.sha512"
+    },
+    "PdfPig/0.1.8-alpha-20230529-6daa2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IqhT0LjvApDUDrib/VdfqBNQlswzXnRp0mIOcy3CJl7lp7PWYCl01Y9POEZvwHteSDwr8DhOvQ/YKKeIhUhoNw==",
+      "path": "pdfpig/0.1.8-alpha-20230529-6daa2",
+      "hashPath": "pdfpig.0.1.8-alpha-20230529-6daa2.nupkg.sha512"
+    },
     "System.Buffers/4.5.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
       "path": "system.buffers/4.5.1",
       "hashPath": "system.buffers.4.5.1.nupkg.sha512"
+    },
+    "System.Drawing.Common/8.0.0-preview.2.23128.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kTEwdz83KrBKPVWEcrF4OGqLeJ6aK7jsPWBp/hX7ngT8BCvWLKAaBd5HZ4cmux0t7k5Lka/B/DqmKC8jc8TrOQ==",
+      "path": "system.drawing.common/8.0.0-preview.2.23128.3",
+      "hashPath": "system.drawing.common.8.0.0-preview.2.23128.3.nupkg.sha512"
     },
     "System.Text.Encoding.CodePages/7.0.0": {
       "type": "package",

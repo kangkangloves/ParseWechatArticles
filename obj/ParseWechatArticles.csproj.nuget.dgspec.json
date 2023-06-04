@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/ParseWechatArticles/ParseWechatArticles.csproj": {}
+    "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\ParseWechatArticles.csproj": {}
   },
   "projects": {
-    "/workspaces/ParseWechatArticles/ParseWechatArticles.csproj": {
+    "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\ParseWechatArticles.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/ParseWechatArticles/ParseWechatArticles.csproj",
+        "projectUniqueName": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\ParseWechatArticles.csproj",
         "projectName": "ParseWechatArticles",
-        "projectPath": "/workspaces/ParseWechatArticles/ParseWechatArticles.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/ParseWechatArticles/obj/",
+        "projectPath": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\ParseWechatArticles.csproj",
+        "packagesPath": "C:\\Users\\ws200\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ws200\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -41,6 +41,14 @@
             "AngleSharp": {
               "target": "Package",
               "version": "[1.0.1, )"
+            },
+            "PdfPig": {
+              "target": "Package",
+              "version": "[0.1.8-alpha-20230529-6daa2, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
             }
           },
           "imports": [
@@ -62,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.203/sdk/7.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

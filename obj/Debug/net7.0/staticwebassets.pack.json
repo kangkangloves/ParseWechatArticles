@@ -1,75 +1,163 @@
 {
   "Files": [
     {
-      "Id": "/workspaces/ParseWechatArticles/obj/Debug/net7.0/scopedcss/projectbundle/ParseWechatArticles.bundle.scp.css",
-      "PackagePath": "staticwebassets/ParseWechatArticles.bundle.scp.css"
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ParseWechatArticles.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ParseWechatArticles.bundle.scp.css"
     },
     {
-      "Id": "/workspaces/ParseWechatArticles/wwwroot/css/bootstrap/bootstrap.min.css",
-      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "/workspaces/ParseWechatArticles/wwwroot/css/bootstrap/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "/workspaces/ParseWechatArticles/wwwroot/css/open-iconic/FONT-LICENSE",
-      "PackagePath": "staticwebassets/css/open-iconic"
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "/workspaces/ParseWechatArticles/wwwroot/css/open-iconic/ICON-LICENSE",
-      "PackagePath": "staticwebassets/css/open-iconic"
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "/workspaces/ParseWechatArticles/wwwroot/css/open-iconic/README.md",
-      "PackagePath": "staticwebassets/css/open-iconic/README.md"
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "/workspaces/ParseWechatArticles/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "PackagePath": "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "/workspaces/ParseWechatArticles/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
-      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot"
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "/workspaces/ParseWechatArticles/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
-      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf"
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "/workspaces/ParseWechatArticles/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
-      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg"
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "/workspaces/ParseWechatArticles/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
-      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf"
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "/workspaces/ParseWechatArticles/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
-      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "/workspaces/ParseWechatArticles/wwwroot/css/site.css",
-      "PackagePath": "staticwebassets/css/site.css"
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "/workspaces/ParseWechatArticles/wwwroot/favicon.png",
-      "PackagePath": "staticwebassets/favicon.png"
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.ParseWechatArticles.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\UqMSmFcU1SyYFryggMS5icjYLm7zicxYVqC7vjBPgZAfvAbVaRUlibiamTQFLQBUeibbeFKo7xWumzll5Aeia31vb5icw.jpg",
+      "PackagePath": "staticwebassets\\imgs\\UqMSmFcU1SyYFryggMS5icjYLm7zicxYVqC7vjBPgZAfvAbVaRUlibiamTQFLQBUeibbeFKo7xWumzll5Aeia31vb5icw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\UqMSmFcU1SyYFryggMS5icjYLm7zicxYVqHBvoUQXOTkQ4VV9FLn3gxHUMxowIBia8rg4rLowEjibzDicQXWFV4v7lg.jpg",
+      "PackagePath": "staticwebassets\\imgs\\UqMSmFcU1SyYFryggMS5icjYLm7zicxYVqHBvoUQXOTkQ4VV9FLn3gxHUMxowIBia8rg4rLowEjibzDicQXWFV4v7lg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\UqMSmFcU1SyYFryggMS5icjYLm7zicxYVqcIU08QZibTdOKdJzZmmGXSXYfaEddvsnrWmUTNQBtsuaBqtzZbEtywQ.jpg",
+      "PackagePath": "staticwebassets\\imgs\\UqMSmFcU1SyYFryggMS5icjYLm7zicxYVqcIU08QZibTdOKdJzZmmGXSXYfaEddvsnrWmUTNQBtsuaBqtzZbEtywQ.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\UqMSmFcU1SyYFryggMS5icjYLm7zicxYVqe0PVMgXblEtesMtFdDYYM3ypU0I1lS7Eu4zSDDa0L4lianQJk0gjISQ.jpg",
+      "PackagePath": "staticwebassets\\imgs\\UqMSmFcU1SyYFryggMS5icjYLm7zicxYVqe0PVMgXblEtesMtFdDYYM3ypU0I1lS7Eu4zSDDa0L4lianQJk0gjISQ.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\UqMSmFcU1SyYFryggMS5icjYLm7zicxYVqicAY4Z1J1utTfyN77y6lajoT0CVRjXUK7pnDaW1qnCJsOxttI8Rg6KQ.jpg",
+      "PackagePath": "staticwebassets\\imgs\\UqMSmFcU1SyYFryggMS5icjYLm7zicxYVqicAY4Z1J1utTfyN77y6lajoT0CVRjXUK7pnDaW1qnCJsOxttI8Rg6KQ.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\icpX4z0ZRYmoC5HeFUq13wyM0MNIBnnYGpbGZflsz16OStzuibZtibwS51uoevGwabSQZpXednyk2GrEXsXgPd6pw.jpg",
+      "PackagePath": "staticwebassets\\imgs\\icpX4z0ZRYmoC5HeFUq13wyM0MNIBnnYGpbGZflsz16OStzuibZtibwS51uoevGwabSQZpXednyk2GrEXsXgPd6pw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAd3Oz8VCDmXGicDhL6fTMUrEy70ppCDriawAlia4dDqXIoPqfc1OTR67ROA.jpg",
+      "PackagePath": "staticwebassets\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAd3Oz8VCDmXGicDhL6fTMUrEy70ppCDriawAlia4dDqXIoPqfc1OTR67ROA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdC3ibaUzMezT0ZHzEc12lwh8qIcqTSqiaeZJ6AN8ib9nlFBBI2MoqK1XMw.jpg",
+      "PackagePath": "staticwebassets\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdC3ibaUzMezT0ZHzEc12lwh8qIcqTSqiaeZJ6AN8ib9nlFBBI2MoqK1XMw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdDBNWXBeBd2wFZqxcg77dVIb2yXDvvrt25tTRlrHEk3ectyPaibiaTMicA.jpg",
+      "PackagePath": "staticwebassets\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdDBNWXBeBd2wFZqxcg77dVIb2yXDvvrt25tTRlrHEk3ectyPaibiaTMicA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdJE4fibMJx8IthjZ1fEZ9o83ibGMvEu2RUCThaETROgCAcmjCicGg9w4Jg.jpg",
+      "PackagePath": "staticwebassets\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdJE4fibMJx8IthjZ1fEZ9o83ibGMvEu2RUCThaETROgCAcmjCicGg9w4Jg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdOA9PWjCQ84enxlHicuP4fPFqMxDokDvzOCynGkls8pEqGEyrfMtayxw.jpg",
+      "PackagePath": "staticwebassets\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdOA9PWjCQ84enxlHicuP4fPFqMxDokDvzOCynGkls8pEqGEyrfMtayxw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdV3or6KwVByK6bsMz3knricoicp04IaWIhEyPFXHWjbcNs1ZdsWvZ1f1A.jpg",
+      "PackagePath": "staticwebassets\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdV3or6KwVByK6bsMz3knricoicp04IaWIhEyPFXHWjbcNs1ZdsWvZ1f1A.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdYRm9f3ib1oQqrpetokaMWp1VuXcL00aSaaicS0kxP7AluJTZ8cRsqYYA.jpg",
+      "PackagePath": "staticwebassets\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdYRm9f3ib1oQqrpetokaMWp1VuXcL00aSaaicS0kxP7AluJTZ8cRsqYYA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdZicQQrGnxTdf1JJnUIk329ibdPKOnoQHCEYvu51TtaIYZaQJAak5l2icQ.jpg",
+      "PackagePath": "staticwebassets\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdZicQQrGnxTdf1JJnUIk329ibdPKOnoQHCEYvu51TtaIYZaQJAak5l2icQ.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdafm7KeJpcht6S6PGdJB8MIwrO6APia9AeFV5zu2q29kqjZQ4AuYePHg.jpg",
+      "PackagePath": "staticwebassets\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdafm7KeJpcht6S6PGdJB8MIwrO6APia9AeFV5zu2q29kqjZQ4AuYePHg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAddltJibXkfQaHFzkuz8UE7SmymbskO1NFtBsFqtUCP7qkDIQZFlhZXAw.jpg",
+      "PackagePath": "staticwebassets\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAddltJibXkfQaHFzkuz8UE7SmymbskO1NFtBsFqtUCP7qkDIQZFlhZXAw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdnvuHuDq2PujncRMMwbOxvlTMJrsR9fNOdfK4Tm7IcjHnmQicqaibunVQ.jpg",
+      "PackagePath": "staticwebassets\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdnvuHuDq2PujncRMMwbOxvlTMJrsR9fNOdfK4Tm7IcjHnmQicqaibunVQ.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdtMkEncjdwuiaFmN9nOBNYicxGwQMIVBgKd5LvXY6rHEj1ic69tfQ3EoTQ.jpg",
+      "PackagePath": "staticwebassets\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdtMkEncjdwuiaFmN9nOBNYicxGwQMIVBgKd5LvXY6rHEj1ic69tfQ3EoTQ.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdza6SQzOOX0m1uWgw5sxiaQlsAibNgjuqrGpnAyXZibETMg78eKAAzltvw.jpg",
+      "PackagePath": "staticwebassets\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAdza6SQzOOX0m1uWgw5sxiaQlsAibNgjuqrGpnAyXZibETMg78eKAAzltvw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\snwvUY0SDtiajAg5RwibLc2vCfFs6dnoSPia3RDgwGIv2rmnM4ZUm9PcpichOBqrEleK59qyHficdzkaWg8NgLicqGdw.jpg",
+      "PackagePath": "staticwebassets\\imgs\\snwvUY0SDtiajAg5RwibLc2vCfFs6dnoSPia3RDgwGIv2rmnM4ZUm9PcpichOBqrEleK59qyHficdzkaWg8NgLicqGdw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\pdfs\\.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\pdfs\\微专题13基因编辑技术.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\微专题13基因编辑技术.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ParseWechatArticles.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.ParseWechatArticles.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ParseWechatArticles.props",
       "PackagePath": "build\\ParseWechatArticles.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.ParseWechatArticles.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ParseWechatArticles.props",
       "PackagePath": "buildMultiTargeting\\ParseWechatArticles.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.ParseWechatArticles.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ParseWechatArticles.props",
       "PackagePath": "buildTransitive\\ParseWechatArticles.props"
     }
   ],
