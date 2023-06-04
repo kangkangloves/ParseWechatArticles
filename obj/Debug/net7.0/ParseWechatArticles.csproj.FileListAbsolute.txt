@@ -30,3 +30,5 @@
 /workspaces/ParseWechatArticles/obj/Debug/net7.0/ParseWechatArticles.pdb
 /workspaces/ParseWechatArticles/obj/Debug/net7.0/ParseWechatArticles.genruntimeconfig.cache
 /workspaces/ParseWechatArticles/obj/Debug/net7.0/ref/ParseWechatArticles.dll
+/workspaces/ParseWechatArticles/bin/Debug/net7.0/AngleSharp.dll
+/workspaces/ParseWechatArticles/obj/Debug/net7.0/ParseWechatArticles.csproj.CopyComplete

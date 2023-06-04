@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qqbNM4d6VksKsdOXsGO5LUSv50PtcHvaNJ1YHzEdKdQ1+4nNHG+mpLYTVGorwIEBPD0UajKhXuNvogPLua4IrQ==",
+  "dgSpecHash": "pxkIZL4gCX7C1gLRzaRbTvoJngcm7u366goJMbJNDZXNHQBlPf0I6ldB0EmcgLagSuwXoUOipIScBrXGTtErRA==",
   "success": true,
   "projectFilePath": "/workspaces/ParseWechatArticles/ParseWechatArticles.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/anglesharp/1.0.1/anglesharp.1.0.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.text.encoding.codepages/7.0.0/system.text.encoding.codepages.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

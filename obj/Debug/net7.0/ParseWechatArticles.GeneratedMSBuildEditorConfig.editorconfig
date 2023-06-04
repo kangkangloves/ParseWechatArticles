@@ -24,12 +24,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspaces/ParseWechatArticles/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [/workspaces/ParseWechatArticles/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/ParseWechatArticles/Pages/WechatArticles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2VjaGF0QXJ0aWNsZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/workspaces/ParseWechatArticles/Shared/SurveyPrompt.razor]
