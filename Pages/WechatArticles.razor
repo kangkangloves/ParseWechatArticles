@@ -49,7 +49,8 @@ else {
 
         var imgElements = document.GetElementsByTagName("img")
             .Where(e => e.GetAttribute("data-type") == "jpg" 
-                        || e.GetAttribute("data-type") == "jpeg")
+                        || e.GetAttribute("data-type") == "jpeg"
+                        || e.GetAttribute("data-type") == "png")
             .ToList();
         var title = document.GetElementsByTagName("h1").FirstOrDefault().Text()
             .Replace(" ", "").Replace("\n", "");
