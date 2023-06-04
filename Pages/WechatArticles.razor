@@ -13,9 +13,9 @@
 
 <PageTitle>Wechat Articles Parser</PageTitle>
 
-<a href="@debug">@debug</a>
-<input @bind="inputPath"/>
-<button @onclick="GetImages">Get</button>
+<a href="@debug">@debug</a><br/>
+<input @bind="inputPath"/><br></br>
+<button @onclick="GetImages">Get</button><br></br>
 
 @if (imgSrcs == null) {
     <p>imgDebug</p>
@@ -38,6 +38,7 @@ else {
 
     private async Task GetImages()
     {
+        debug = "请稍后，这里马上会出现PDF链接！不要重复点击按钮！";
     //https://mp.weixin.qq.com/s/rPR7AnnbtIRMQ3opXy2hzA
         var htmlRes = await Http.GetAsync(inputPath);
         var htmlRaw = await htmlRes.Content.ReadAsStringAsync();
