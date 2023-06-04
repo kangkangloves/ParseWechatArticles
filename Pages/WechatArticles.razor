@@ -9,6 +9,7 @@
 @using UglyToad.PdfPig.Writer
 @using System.Net.Mime
 @using System.Drawing
+@using System.Drawing.Imaging
 @inject HttpClient Http
 
 <PageTitle>Wechat Articles Parser</PageTitle>
@@ -73,7 +74,8 @@ else {
             if (!File.Exists($"{BEHIND_IMG_DIR}/{imgName}.jpg"))
             {
                 var imgBytes = await Http.GetByteArrayAsync(imgSrc);
-                await File.WriteAllBytesAsync($"{BEHIND_IMG_DIR}/{imgName}.jpg", imgBytes);
+                var img = Image.FromStream(new MemoryStream(imgBytes));
+                img.Save($"{BEHIND_IMG_DIR}/{imgName}.jpg", ImageFormat.Jpeg);
             }
             imgSrcs.Add($"{IMG_DIR}/{imgName}.jpg");
         }

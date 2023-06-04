@@ -81,6 +81,10 @@
       "PackagePath": "staticwebassets\\imgs\\icpX4z0ZRYmoC5HeFUq13wyM0MNIBnnYGpbGZflsz16OStzuibZtibwS51uoevGwabSQZpXednyk2GrEXsXgPd6pw.jpg"
     },
     {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\icpX4z0ZRYmp5tF5cVDRILNsUM9QpjZ6t2xJ6N6f2emMYR2NqV3NNGd9E8atQr4pmaBNQkiarL2WW3eMn4VZwuvw.jpg",
+      "PackagePath": "staticwebassets\\imgs\\icpX4z0ZRYmp5tF5cVDRILNsUM9QpjZ6t2xJ6N6f2emMYR2NqV3NNGd9E8atQr4pmaBNQkiarL2WW3eMn4VZwuvw.jpg"
+    },
+    {
       "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAd3Oz8VCDmXGicDhL6fTMUrEy70ppCDriawAlia4dDqXIoPqfc1OTR67ROA.jpg",
       "PackagePath": "staticwebassets\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAd3Oz8VCDmXGicDhL6fTMUrEy70ppCDriawAlia4dDqXIoPqfc1OTR67ROA.jpg"
     },
@@ -143,6 +147,14 @@
     {
       "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\pdfs\\微专题13基因编辑技术.pdf",
       "PackagePath": "staticwebassets\\pdfs\\微专题13基因编辑技术.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\pdfs\\这可能是一份最深刻的概率“押题”卷.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\这可能是一份最深刻的概率“押题”卷.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\pdfs\\选择性必修三知识清单背诵版.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\选择性必修三知识清单背诵版.pdf"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ParseWechatArticles.Microsoft.AspNetCore.StaticWebAssets.props",

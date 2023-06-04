@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Z0CIPUfbpUCBjWcVCWlYe1PcaFP1nrUPx/voiASuSVU=",
+  "Hash": "WbhDf4Y7L5N12or4TEbEGrOfN2NaBEdCatXktPPmrJc=",
   "Source": "ParseWechatArticles",
   "BasePath": "_content/ParseWechatArticles",
   "Mode": "Default",
@@ -287,6 +287,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imgs\\icpX4z0ZRYmoC5HeFUq13wyM0MNIBnnYGpbGZflsz16OStzuibZtibwS51uoevGwabSQZpXednyk2GrEXsXgPd6pw.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\icpX4z0ZRYmp5tF5cVDRILNsUM9QpjZ6t2xJ6N6f2emMYR2NqV3NNGd9E8atQr4pmaBNQkiarL2WW3eMn4VZwuvw.jpg",
+      "SourceId": "ParseWechatArticles",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\",
+      "BasePath": "_content/ParseWechatArticles",
+      "RelativePath": "imgs/icpX4z0ZRYmp5tF5cVDRILNsUM9QpjZ6t2xJ6N6f2emMYR2NqV3NNGd9E8atQr4pmaBNQkiarL2WW3eMn4VZwuvw.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\icpX4z0ZRYmp5tF5cVDRILNsUM9QpjZ6t2xJ6N6f2emMYR2NqV3NNGd9E8atQr4pmaBNQkiarL2WW3eMn4VZwuvw.jpg"
     },
     {
       "Identity": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\imgs\\kSoKmDwu5VFhIZ0SYbwqouXVtv6fHqAd3Oz8VCDmXGicDhL6fTMUrEy70ppCDriawAlia4dDqXIoPqfc1OTR67ROA.jpg",
@@ -644,6 +661,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\pdfs\\微专题13基因编辑技术.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\pdfs\\选择性必修三知识清单背诵版.pdf",
+      "SourceId": "ParseWechatArticles",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\",
+      "BasePath": "_content/ParseWechatArticles",
+      "RelativePath": "pdfs/选择性必修三知识清单背诵版.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pdfs\\选择性必修三知识清单背诵版.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\pdfs\\这可能是一份最深刻的概率“押题”卷.pdf",
+      "SourceId": "ParseWechatArticles",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ws200\\RiderProjects\\VoyageEPaperSea\\ParseWechatArticles\\wwwroot\\",
+      "BasePath": "_content/ParseWechatArticles",
+      "RelativePath": "pdfs/这可能是一份最深刻的概率“押题”卷.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pdfs\\这可能是一份最深刻的概率“押题”卷.pdf"
     }
   ]
 }
