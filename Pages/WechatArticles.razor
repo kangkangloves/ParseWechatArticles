@@ -41,7 +41,7 @@ else {
 
     private async Task GetImages()
     {
-        if (inputPath == "")
+        if (inputPath == null)
         {
             debug = "请先输入正确的地址！不要重复点击按钮！";
             return;
