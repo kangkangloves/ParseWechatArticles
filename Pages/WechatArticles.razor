@@ -13,12 +13,14 @@
 
 <PageTitle>Wechat Articles Parser</PageTitle>
 
+<h1>Wechat Articles Parser</h1>
+<h2>暂时还没写CSS，将就着看吧qwq</h2>
 <a href="@debug">@debug</a><br>
 <input @bind="inputPath"/>
 <button @onclick="GetImages">预览&获取PDF</button><br>
 
 @if (imgSrcs == null) {
-    <p>imgDebug</p>
+    <p>图片预览区</p>
 } 
 else {
     @foreach (var img in imgSrcs) {
@@ -38,6 +40,11 @@ else {
 
     private async Task GetImages()
     {
+        if (inputPath == "")
+        {
+            debug = "请先输入正确的地址！不要重复点击按钮！";
+            return;
+        }
         debug = "请稍后，这里马上会出现PDF链接！不要重复点击按钮！";
     //https://mp.weixin.qq.com/s/rPR7AnnbtIRMQ3opXy2hzA
         var htmlRes = await Http.GetAsync(inputPath);
